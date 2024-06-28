@@ -2,7 +2,43 @@
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
+}
 
+.container .category_top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .category_top span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  text-transform: capitalize;
+
+  color: #041e42;
+
+}
+
+.container .category_top a {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: capitalize;
+
+  color: #041e42;
+}
+
+.container .category_top a:hover {
+  border-bottom: 2px solid #041e42;
 }
 
 .header_frame {
@@ -254,7 +290,7 @@
   flex-direction: column;
 }
 
-.shop_category_frame .container .category_top {
+.container .category_top {
   width: 100%;
   height: auto;
 
@@ -264,18 +300,17 @@
   align-items: center;
 }
 
-.shop_category_frame .category_top span {
+.category_top span {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
-  line-height: 40px;
+  line-height: 48px;
 
   color: #041e42;
-
 }
 
-.shop_category_frame .category_top a {
+.category_top a {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -285,30 +320,30 @@
   color: #041e42;
 }
 
-.shop_category_frame .category_top a:hover {
+.category_top a:hover {
   border-bottom: 2px solid #041e42;
 }
 
-.shop_category_frame .container .category_wrapper {
+.container .category_wrapper {
   margin-top: 30px;
   width: 100%;
   height: auto;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
   justify-content: space-between;
+  cursor: pointer;
 }
 
-.shop_category_frame .category_wrapper .category_box {
+.category_wrapper .category_box {
   width: 142px;
   height: auto;
 
   display: flex;
   flex-direction: column;
-  cursor: pointer;
 }
 
-.shop_category_frame .category_box .category_img_box {
+.category_box .category_img_box {
   width: 100%;
   height: 150px;
 
@@ -320,7 +355,7 @@
   border-radius: 150px;
 }
 
-.shop_category_frame .category_box span {
+.category_box span {
   margin-top: 15px;
   font-family: "Jost";
   font-style: normal;
