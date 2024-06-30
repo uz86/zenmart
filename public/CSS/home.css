@@ -599,3 +599,21 @@
   height: 4px;
   background: #112137;
 }
+
+.home_page .adv_frame {
+  margin-top: 90px;
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #e5edff;
+  font-family: 'Jost';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #0053f6;
+}
