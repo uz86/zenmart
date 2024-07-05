@@ -849,6 +849,7 @@ color: #626974;
   justify-content: center;
 
   background-image: url(/public/images/icons/event_bg.png);
+  background-size: cover;
 }
 
 .event_frame .container {
