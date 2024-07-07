@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
- 
+  padding: 0;
 }
 
 a {
@@ -33,6 +33,7 @@ p {
 }
 
 .navbar_frame .container {
+  position: relative;
   padding: 20px 0px 14px;
   width: 1320px;
   height: auto;
@@ -95,6 +96,7 @@ p {
 
   font-family: "Jost";
   font-style: normal;
+  font-weight: 400;
   font-size: 15px;
   line-height: 22px;
   color: #041e42;
@@ -110,12 +112,13 @@ p {
 
   font-family: "Jost";
   font-style: normal;
+  font-weight: 400;
   font-size: 15px;
   line-height: 22px;
   color: #626974;
 }
 
-.navbar_frame .nav_search_frame .sreach_icon_box {
+.navbar_frame .nav_search_frame .search_icon_box {
   width: 50px;
   height: 50px;
 
@@ -126,7 +129,7 @@ p {
   border-radius: 0px 6px 6px 0px;
 }
 
-.navbar_frame .sreach_icon_box img {
+.navbar_frame .search_icon_box img {
   width: 20px;
   height: 20px;
 }
@@ -150,6 +153,7 @@ p {
 }
 
 .navbar_frame .top_menu_box .box_icon_box {
+  position: relative;
   margin-right: 16px;
   width: 54px;
   height: 50px;
@@ -196,7 +200,7 @@ p {
   position: absolute;
   width: 15px;
   height: 15px;
-  top: -2px;
+  top: 0px;
   right: -3px;
 
   display: flex;
@@ -273,6 +277,7 @@ p {
   height: 41px;
 
   display: flex;
+
 }
 
 .navbar_frame .router_menu a {
@@ -298,7 +303,7 @@ p {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 28px;
   color: #FFFFFF;
 }
