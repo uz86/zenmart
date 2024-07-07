@@ -58,6 +58,8 @@
 .container .next_prev_box img {
   top: 50%;
   cursor: pointer;
+  position: relative;
+  bottom: 50px;
 }
 
 .container .product_boxes .product_box {
@@ -953,7 +955,7 @@ color: #626974;
 
 .event_product_boxes .event_product_box {
   margin-right: 8px;
-  width: 170px;
+  width: 205px;
   height: 392px;
 
   display: flex;
@@ -969,4 +971,5 @@ color: #626974;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }

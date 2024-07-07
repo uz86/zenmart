@@ -323,10 +323,12 @@ p {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
+
+  color: #041e42;
 }
 
 .footer_frame .footer_frame .container {
-  flex-direction: column;
+flex-direction: column;
 }
 
 .footer_frame .container .footer_top {
@@ -335,6 +337,8 @@ p {
 
   display: flex;
   flex-direction: row;
+  
+  
 }
 
 .footer_frame .top .footer_contact_box {
